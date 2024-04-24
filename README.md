@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi perfil de GitHub!
 <div id="header" align"center">
-<img src="(https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg)"
+<img src="(https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg)"/>
   </div>
 ## Acerca de mí
 Soy un apasionado programador junior y estudiante universitario. Disfruto explorando nuevas tecnologías y aprendiendo sobre programación, especialmente en C++. Me encanta contribuir a proyectos de código abierto y compartir conocimientos con la comunidad.
