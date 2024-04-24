@@ -1,1 +1,139 @@
+import tkinter as tk
+from tkinter import messagebox
+from PIL import ImageTk, Image
+import pymysql
+
+def main():
+    window = tk.Tk()
+    window.title("Tribunal Electoral ")
+    window.geometry("780x410+120+90")
+    window.resizable(0,0)
+    window.config(background='white')
+    window.iconbitmap('C:\\Users\\alexa\\Downloads\\te2.ico')
+
+    image = Image.open("C:\\Users\\alexa\\Downloads\\te.png")
+    image = image.resize((620, 360))
+    photo = ImageTk.PhotoImage(image)
+    image_label = tk.Label(window, image=photo)
+    image_label.place(x=0, y=0, relwidth=1, relheight=1)
+
+    # Connect to database
+    conn = pymysql.connect(
+        host="localhost",
+        user="root",
+        password="informatica",
+        database="elecciones",
+    )
+
+    # Create a cursor
+    cursor = conn.cursor()
+
+    # Create a table
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS personas (id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(255), apellido VARCHAR(255), cedula VARCHAR(255), genero VARCHAR(255), centro_votacion VARCHAR(255), mesa_votacion VARCHAR(255))"
+    )
+
+    # Function to add reservation
+    def add_reservation():
+        sql = """INSERT INTO personas (nombre, apellido, cedula, genero, centro_votacion, mesa_votacion)
+               VALUES (%s, %s, %s, %s, %s, %s)"""
+        nombre = entry_nombre.get()
+        apellido = entry_apellido.get()
+        cedula = entry_cedula.get()
+        genero = entry_genero.get()
+        centro_votacion = entry_centro_votacion.get()
+        mesa_votacion = entry_mesa_votacion.get()
+        
+        # Check if a reservation with the same name, last name, and ID already exists
+        cursor.execute("SELECT * FROM personas WHERE nombre=%s AND apellido=%s AND cedula=%s AND genero=%s AND centro_votacion=%s AND mesa_votacion=%s", (nombre, apellido, cedula, genero, centro_votacion, mesa_votacion))
+        rows = cursor.fetchall()
+        if len(rows) > 0:
+            messagebox.showinfo("Error", "Reservation already exists")
+        else:
+            cursor.execute(sql, (nombre, apellido, cedula, genero, centro_votacion, mesa_votacion))
+            conn.commit()
+            messagebox.showinfo("Success", "successfully")
+
+    def view_reservations():
+        cursor.execute("SELECT * FROM personas")
+        rows = cursor.fetchall()
+        if len(rows) > 0:
+            messagebox.showinfo("Reservations", str(rows))
+        else:
+            messagebox.showinfo("Error", "No reservations found")
+
+
+    # Function to search reservation by cedula
+    def search_reservation_by_cedula():
+        cedula = entry_cedula_search.get()
+        cursor.execute("SELECT * FROM personas WHERE cedula=%s", (cedula,))
+        rows = cursor.fetchall()
+        if len(rows) > 0:
+            messagebox.showinfo("Revisado", str(rows))
+        else:
+            messagebox.showinfo("Error", "No reservation found for the provided ID")
+
+    # Entries for input
+    label_nombre = tk.Label(window, text="Nombre:", bg='white', fg='green')
+    label_nombre.grid(row=0, column=0)
+    entry_nombre = tk.Entry(window, bg='white', fg='green')
+    entry_nombre.grid(row=0, column=1)
+
+    label_apellido = tk.Label(window, text="Apellido:", bg='white', fg='green')
+    label_apellido.grid(row=1, column=0)
+    entry_apellido = tk.Entry(window, bg='white', fg='green')
+    entry_apellido.grid(row=1, column=1)
+
+    label_cedula = tk.Label(window, text="Cédula:", bg='white', fg='green')
+    label_cedula.grid(row=2, column=0)
+    entry_cedula = tk.Entry(window, bg='white', fg='green')
+    entry_cedula.grid(row=2, column=1)
+
+    label_genero = tk.Label(window, text="Género:", bg='white', fg='green')
+    label_genero.grid(row=3, column=0)
+    generos = ["Masculino", "Femenino", "No binario", "Lesbiana", "Homosexual"]
+    entry_genero = tk.StringVar()
+    entry_genero.set(generos[0])
+    om_genero = tk.OptionMenu(window, entry_genero, *generos)
+    om_genero.config(bg='white', fg='green')
+    om_genero.grid(row=3, column=1)
+
+    label_centro_votacion = tk.Label(window, text="Centro de Votación:", bg='white', fg='green')
+    label_centro_votacion.grid(row=4, column=0)
+    entry_centro_votacion = tk.Entry(window, bg='white', fg='green')
+    entry_centro_votacion.grid(row=4, column=1)
+
+    label_mesa_votacion = tk.Label(window, text="Mesa de Votación:", bg='white', fg='green')
+    label_mesa_votacion.grid(row=5, column=0)
+    entry_mesa_votacion = tk.Entry(window, bg='white', fg='green')
+    entry_mesa_votacion.grid(row=5, column=1)
+
+    # Buttons for actions
+    btn_add = tk.Button(window, text="Guardar datos", command=add_reservation, bg="blue", fg="White")
+    btn_add.grid(row=6, column=0)
+
+    btn_view = tk.Button(window, text="Mostrar datos", command=view_reservations, bg="green", fg="White")
+    btn_view.grid(row=6, column=1)
+
+    # Entry and button for searching by cedula
+    label_cedula_search = tk.Label(window, text="Buscar por Cédula:", bg='white', fg='green')
+    label_cedula_search.grid(row=7, column=0)
+    entry_cedula_search = tk.Entry(window, bg='white', fg='green')
+    entry_cedula_search.grid(row=7, column=1)
+    btn_search = tk.Button(window, text="Buscar reserva por cédula", command=search_reservation_by_cedula, bg="yellow", fg="black")
+    btn_search.grid(row=8, column=0, columnspan=2)
+
+    btn_add = tk.Button(window,bg="black",fg="black")
+    btn_add.pack(row=1000,column=800).place(x=0, y=0)
+
+
+    # Centrar los elementos en la ventana
+    for child in window.winfo_children():
+        child.grid_configure(padx=10, pady=10)
+
+    window.mainloop()
+
+if __name__ == "__main__":
+    main()
+
 
