@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi perfil de GitHub!
 
-![Imagen de perfil](https://ideogram.ai/api/images/direct/YzPq75lfRmCtm7WUNaXTUQ.png)
+![Imagen de perfil](https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg)
 
 ## Acerca de mí
 Soy un apasionado programador junior y estudiante universitario. Disfruto explorando nuevas tecnologías y aprendiendo sobre programación, especialmente en C++. Me encanta contribuir a proyectos de código abierto y compartir conocimientos con la comunidad.
