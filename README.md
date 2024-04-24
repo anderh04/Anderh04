@@ -1,7 +1,7 @@
 # Hola, soy Abdiel Montezuma! 👋
 
 ¡Bienvenido a mi perfil de GitHub!
-<img src="https://programacion.net/files/editor/tipos-programador.png
+
 <p align="center">
   <img src="https://programacion.net/files/editor/tipos-programador.png" alt="Imagen de perfil">
   <img src="https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg" alt="Imagen de perfil">
