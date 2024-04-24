@@ -1,0 +1,35 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+	int edad, c_masculino, c_femenino, c_mayores, c_menores;
+	char sexo, nombre[100];
+	c_masculino = 0 , c_femenino = 0, c_mayores = 0 , c_menores = 0;
+	ofstream archivo_salida("a.txt", ios::out);
+	for (int i = 0; i < 10; i++) {
+		cout << "Ingrese el nombre de la persona " << i+1 << ": ";
+		cin.getline(nombre, 100);
+		cout << "Ingrese la edad de la persona " << i+1 << ": ";
+		cin >> edad;
+		cout << "Ingrese el sexo de la persona " << i+1 << " (M/F): ";
+		cin >> sexo;
+		cin.ignore();
+		if (sexo == 'M' || sexo == 'm') {
+			c_masculino++;
+		} else {
+			c_femenino++;
+		}
+		if (edad >= 18) {
+			c_mayores++;
+		} else {
+			c_menores++;
+		}
+		archivo_salida << "Persona " << i+1 << " - Nombre: " << nombre << " - Edad: " << edad << " - Sexo: " << sexo << endl;
+	} archivo_salida << "Cantidad de personas del sexo masculino: " << c_masculino << endl;
+	archivo_salida << "Cantidad de personas del sexo femenino: " << c_femenino << endl;
+	archivo_salida << "Cantidad de personas mayores de edad: " << c_mayores << endl;
+	archivo_salida << "Cantidad de personas menores de edad: " << c_menores << endl;
+	archivo_salida.close();
+	cout << "Se han guardado los datos en el a.txt" << endl;
+	return 0;
