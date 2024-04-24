@@ -3,8 +3,8 @@
 ¡Bienvenido a mi perfil de GitHub!
 
 <p align="center">
-  <img src="https://programacion.net/files/editor/tipos-programador.png" alt="Imagen de perfil">
-  <img src="https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg" alt="Imagen de perfil">
+  <img src="https://programacion.net/files/editor/tipos-programador.png" alt="Imagen 1" width="400"/> 
+  <img src="https://i.blogs.es/a80879/programador-copia-2/450_1000.jpeg" alt="Imagen 2" width="400"/> 
 </p>
 
 ## Acerca de mí
