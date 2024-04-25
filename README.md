@@ -18,6 +18,7 @@ Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres
 - LinkedIn: [Abdiel Montezuma](link_a_tu_perfil_de_LinkedIn)
 - Twitter: [Tu Nombre de Usuario en Twitter](https://twitter.com/tu_nombre_de_usuario)
 - Instagram: [Alex_m04](https://www.instagram.com/tu_nombre_de_usuario)
+- WhatsApp: [+5076521-0907](https://wa.me/1234567890)
   ## Lenguajes de programacion usados
   <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30"/> 
