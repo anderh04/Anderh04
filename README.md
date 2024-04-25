@@ -11,15 +11,10 @@
 Soy un apasionado programador junior y estudiante universitario. Disfruto explorando nuevas tecnologías y aprendiendo sobre programación, especialmente en C++. Me encanta contribuir a proyectos de código abierto y compartir conocimientos con la comunidad.
 
 
-
-## Contacto
-Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres charlar, no dudes en contactarme:
-
-- Correo electrónico: [abdiel.montezuma2@unachi.ac.pa](mailto:abdiel.montezuma2@unachi.ac.pa)
   ## Contacto y Redes Sociales
 Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres charlar, no dudes en contactarme:
 
-- Correo electrónico: [tu_correo_electrónico@example.com](mailto:tu_correo_electrónico@example.com)
+- Correo electrónico: [abdiel.montezuma2@unachi.ac.pa](mailto:abdiel.montezuma2@unachi.ac.pa)
 - LinkedIn: [Abdiel Montezuma](link_a_tu_perfil_de_LinkedIn)
 - Twitter: [Tu Nombre de Usuario en Twitter](https://twitter.com/tu_nombre_de_usuario)
 - Instagram: [Alex_m04](https://www.instagram.com/tu_nombre_de_usuario)
