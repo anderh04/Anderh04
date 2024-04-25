@@ -15,5 +15,6 @@ Soy un apasionado programador junior y estudiante universitario. Disfruto explor
 Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres charlar, no dudes en contactarme:
 
 - Correo electrónico: [abdiel.montezuma2@unachi.ac.pa](mailto:abdiel.montezuma2@unachi.ac.pa)
+- https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
 
 ¡Gracias por visitar mi perfil! Espero que encuentres algo interesante aquí. 😊
