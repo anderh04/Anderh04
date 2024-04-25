@@ -15,7 +15,7 @@ Soy un apasionado programador junior y estudiante universitario. Disfruto explor
 Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres charlar, no dudes en contactarme:
 
 - Correo electrónico: [abdiel.montezuma2@unachi.ac.pa](mailto:abdiel.montezuma2@unachi.ac.pa)
-  ## Lenguajes usados
+  ## Lenguajes de programacion usados
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="30"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30"/>
 
 
