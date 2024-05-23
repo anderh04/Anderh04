@@ -1,161 +1,177 @@
-# Registro de datos en MySQL desde una GUI en TkInter
-# @autor: Magno Efren
-# Youtube: https://www.youtube.com/c/MagnoEfren
+import tkinter as tk
+from tkinter import messagebox, ttk
+from ttkbootstrap import Style
 
-from tkinter import Entry, Label, Frame, Tk, Button,ttk, Scrollbar, VERTICAL, HORIZONTAL,StringVar,END
-from conexion import *
+# Establecer las preguntas para cada jugador
+questions_player1 = [
+    {
+        "question": "¿Cuál de estos es el lenguaje de alto nivel?",
+        "choices": ["A. C++", "B. vim", "C. Cobol", "D. P.H.P."],
+        "answer": "D"
+    },
+    {
+        "question": "¿Cuáles son los componentes internos de la computadora?",
+        "choices": ["A. Mouse", "B. Procesador", "C. Teclado", "D. Batería"],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cómo o qué es el sistema binario?",
+        "choices": ["A. Cifra", "B. Entero", "C. Binario", "D. De dos dígitos"],
+        "answer": "D"
+    },
+    {
+        "question": "¿Cuál es el nombre del dueño de Microsoft?",
+        "choices": ["A. Ricardo Blue", "B. Leonardo González", "C. Ricardo Martinelli", "D. Bill Gates"],
+        "answer": "D"
+    },
+    {
+        "question": "¿Transformación del modelo Entidad-Relación?",
+        "choices": ["A. Cardinalidad", "B. Atributos", "C. Cadena", "D. Código"],
+        "answer": "A"
+    }
+]
 
+questions_player2 = [
+    {
+        "question": "¿Cuál es el país más grande del mundo?",
+        "choices": ["A. Estados Unidos", "B. China", "C. Rusia", "D. Canadá"],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué fue el Holocausto Nazi?",
+        "choices": ["A. Un terremoto", "B. Una masacre", "C. Un tornado", "D. Un arma"],
+        "answer": "B"
+    },
+    {
+        "question": "¿Quién fue Francisco Franco?",
+        "choices": ["A. Poeta chileno", "B. Dictador español", "C. Escritor venezolano", "D. Independentista ecuatoriano"],
+        "answer": "B"
+    },
+    {
+        "question": "¿Quién es el mayor asesino en la historia?",
+        "choices": ["A. Adolf Hitler", "B. Mao Zedong", "C. Iósif Stalin", "D. Ninguno de los anteriores"],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cuál es el libro más vendido de la historia?",
+        "choices": ["A. El Principito", "B. 100 años de soledad", "C. Harry Potter", "D. La Biblia"],
+        "answer": "D"
+    }
+]
 
-class Registro(Frame):
-    def __init__(self, master):
-        
-                                    
-        self.frame1 = Frame(master)
-        self.frame1.grid(columnspan=2, column=0,row=0)
-        self.frame2 = Frame(master, bg='navy')
-        self.frame2.grid(column=0, row=1)
-        self.frame3 = Frame(master)
-        self.frame3.grid(rowspan=2, column=1, row=1)
+# Establecer quiz_data combinando las preguntas de ambos jugadores
+quiz_data = questions_player1 + questions_player2
 
-        self.frame4 = Frame(master, bg='black')
-        self.frame4.grid(column=0, row=2)
+# Global variables
+current_player = 1
+player_scores = [0, 0]
+current_question = 0
+questions_per_player = 5
 
-        self.codigo = StringVar()
-        self.nombre = StringVar()
-        self.modelo = StringVar()
-        self.precio = StringVar()
-        self.cantidad = StringVar()
-        self.buscar = StringVar()
+# Function to display the current question and choices for the current player
+def show_question():
+    global current_question
+    question = quiz_data[current_question]
+    qs_label.config(text=question["question"])
 
-        #self.base_datos = Registro_datos()
-        self.create_wietgs()
+    choices = question["choices"]
+    for i in range(4):
+        choice_btns[i].config(text=choices[i], state="normal")
 
-    def create_wietgs(self):
-        Label(self.frame1, text = 'R E G I S T R O \t D E \t D A T O S',bg='gray22',fg='white', font=('Orbitron',15,'bold')).grid(column=0, row=0)
-        
-        Label(self.frame2, text = 'Agregar Nuevos Datos',fg='white', bg ='navy', font=('Rockwell',12,'bold')).grid(columnspan=2, column=0,row=0, pady=5)
-        Label(self.frame2, text = 'Codigo',fg='white', bg ='navy', font=('Rockwell',13,'bold')).grid(column=0,row=1, pady=15)
-        Label(self.frame2, text = 'Nombre',fg='white', bg ='navy', font=('Rockwell',13,'bold')).grid(column=0,row=2, pady=15)
-        Label(self.frame2, text = 'Modelo',fg='white', bg ='navy', font=('Rockwell',13,'bold')).grid(column=0,row=3, pady=15)
-        Label(self.frame2, text = 'Precio', fg='white',bg ='navy', font=('Rockwell',13,'bold')).grid(column=0,row=4, pady=15)
-        Label(self.frame2, text = 'Cantidad',fg='white', bg ='navy', font=('Rockwell',13,'bold')).grid(column=0,row=5, pady=15)
+    feedback_label.config(text="")
+    next_btn.config(state="disabled")
 
-        Entry(self.frame2,textvariable=self.codigo , font=('Arial',12)).grid(column=1,row=1, padx =5)
-        Entry(self.frame2,textvariable=self.nombre , font=('Arial',12)).grid(column=1,row=2)
-        Entry(self.frame2,textvariable=self.modelo , font=('Arial',12)).grid(column=1,row=3)
-        Entry(self.frame2,textvariable=self.precio , font=('Arial',12)).grid(column=1,row=4)
-        Entry(self.frame2,textvariable=self.cantidad , font=('Arial',12)).grid(column=1,row=5)
-       
-        Label(self.frame4, text = 'Control',fg='white', bg ='black', font=('Rockwell',12,'bold')).grid(columnspan=3, column=0,row=0, pady=1, padx=4)         
-        Button(self.frame4,command= self.agregar_datos, text='REGISTRAR', font=('Arial',10,'bold'), bg='magenta2').grid(column=0,row=1, pady=10, padx=4)
-        Button(self.frame4,command = self.limpiar_datos, text='LIMPIAR', font=('Arial',10,'bold'), bg='orange red').grid(column=1,row=1, padx=10)        
-        Button(self.frame4,command = self.eliminar_fila, text='ELIMINAR', font=('Arial',10,'bold'), bg='yellow').grid(column=2,row=1, padx=4)
-        Button(self.frame4,command = self.buscar_nombre, text='BUSCAR POR NOMBRE', font=('Arial',8,'bold'), bg='orange').grid(columnspan=2,column = 1, row=2)
-        Entry(self.frame4,textvariable=self.buscar , font=('Arial',12), width=10).grid(column=0,row=2, pady=1, padx=8)
-        Button(self.frame4,command = self.mostrar_todo, text='MOSTRAR DATOS DE MYSQL', font=('Arial',10,'bold'), bg='green2').grid(columnspan=3,column=0,row=3, pady=8)
+# Function to check the selected answer and provide feedback
+def check_answer(choice):
+    global current_question, current_player
+    question = quiz_data[current_question]
+    selected_choice = chr(65 + choice)  # Convertir índice a letra: A, B, C, D
 
+    if selected_choice == question["answer"]:
+        player_scores[current_player - 1] += 1
+        score_label.config(text="Puntuación Jugador {}: {}/{}".format(current_player, player_scores[current_player - 1], questions_per_player))
+        feedback_label.config(text="¡Correcto!", foreground="green")
+    else:
+        feedback_label.config(text="Incorrecto", foreground="red")
+        next_question()
 
-        self.tabla = ttk.Treeview(self.frame3, height=21)
-        self.tabla.grid(column=0, row=0)
+    for button in choice_btns:
+        button.config(state="disabled")
+    next_btn.config(state="normal")
 
-        ladox = Scrollbar(self.frame3, orient = HORIZONTAL, command= self.tabla.xview)
-        ladox.grid(column=0, row = 1, sticky='ew') 
-        ladoy = Scrollbar(self.frame3, orient =VERTICAL, command = self.tabla.yview)
-        ladoy.grid(column = 1, row = 0, sticky='ns')
+# Function to move to the next question or player
+def next_question():
+    global current_question, current_player
+    current_question += 1
 
-        self.tabla.configure(xscrollcommand = ladox.set, yscrollcommand = ladoy.set)
-       
-        self.tabla['columns'] = ('Nombre', 'Modelo', 'Precio', 'Cantidad')
+    if current_question % questions_per_player == 0:
+        if current_player == 1:
+            current_player = 2
+            messagebox.showinfo("Turno del Jugador 2", "¡Turno del Jugador 2!")
+            current_question -= questions_per_player  # Reiniciar preguntas para el Jugador 2
+        else:
+            messagebox.showinfo("Quiz Completado",
+                                "Quiz Completado! Puntuación Jugador 1: {}/{} - Puntuación Jugador 2: {}/{}".format(player_scores[0], questions_per_player, player_scores[1], questions_per_player))
+            root.destroy()
+    show_question()
 
-        self.tabla.column('#0', minwidth=100, width=120, anchor='center')
-        self.tabla.column('Nombre', minwidth=100, width=130 , anchor='center')
-        self.tabla.column('Modelo', minwidth=100, width=120, anchor='center' )
-        self.tabla.column('Precio', minwidth=100, width=120 , anchor='center')
-        self.tabla.column('Cantidad', minwidth=100, width=105, anchor='center')
+# Create the main window
+root = tk.Tk()
+root.title("Quiz App para 2 Jugadores")
+root.geometry("600x500")
+style = Style(theme="flatly")
 
-        self.tabla.heading('#0', text='Codigo', anchor ='center')
-        self.tabla.heading('Nombre', text='Nombre', anchor ='center')
-        self.tabla.heading('Modelo', text='Modelo', anchor ='center')
-        self.tabla.heading('Precio', text='Precio', anchor ='center')
-        self.tabla.heading('Cantidad', text='Cantidad', anchor ='center')
+# Configure the font size for the question and choice buttons
+style.configure("TLabel", font=("Helvetica", 20))
+style.configure("TButton", font=("Helvetica", 16))
 
+# Create the question label
+qs_label = ttk.Label(
+    root,
+    anchor="center",
+    wraplength=500,
+    padding=10
+)
+qs_label.pack(pady=10)
 
-        estilo = ttk.Style(self.frame3)
-        estilo.theme_use('alt') #  ('clam', 'alt', 'default', 'classic')
-        estilo.configure(".",font= ('Helvetica', 12, 'bold'), foreground='red2')        
-        estilo.configure("Treeview", font= ('Helvetica', 10, 'bold'), foreground='black',  background='white')
-        estilo.map('Treeview',background=[('selected', 'green2')], foreground=[('selected','black')] )
+# Create the choice buttons
+choice_btns = []
+for i in range(4):
+    button = ttk.Button(
+        root,
+        command=lambda i=i: check_answer(i)
+    )
+    button.pack(pady=5)
+    choice_btns.append(button)
 
-        self.tabla.bind("<<TreeviewSelect>>", self.obtener_fila)  # seleccionar  fila
-        
+# Create the feedback label
+feedback_label = ttk.Label(
+    root,
+    anchor="center",
+    padding=10
+)
+feedback_label.pack(pady=10)
 
-    def agregar_datos(self):
-        self.tabla.get_children()
-        codigo = self.codigo.get()
-        nombre = self.nombre.get()
-        modelo = self.modelo.get()
-        precio = self.precio.get()
-        cantidad = self.cantidad.get()
-        datos = (nombre, modelo, precio, cantidad)
-        if codigo and nombre and modelo and precio and cantidad !='':        
-            self.tabla.insert('',0, text = codigo, values=datos)
-            self.base_datos.inserta_producto(codigo, nombre, modelo, precio, cantidad)
+# Create the score label
+score_label = ttk.Label(
+    root,
+    text="Puntuación Jugador 1: 0/{} - Puntuación Jugador 2: 0/{}".format(questions_per_player, questions_per_player),
+    anchor="center",
+    padding=10
+)
+score_label.pack(pady=10)
 
+# Create the next button
+next_btn = ttk.Button(
+    root,
+    text="Siguiente",
+    command=next_question,
+    state="disabled"
+)
+next_btn.pack(pady=10)
 
-    def limpiar_datos(self):
-        self.tabla.delete(*self.tabla.get_children())
-        self.codigo.set('')
-        self.nombre.set('')
-        self.modelo.set('')
-        self.precio.set('')
-        self.cantidad.set('')
+# Show the first question for the first player
+show_question()
 
-    def buscar_nombre(self):
-        nombre_producto = self.buscar.get()
-        nombre_producto = str("'" + nombre_producto + "'")
-        nombre_buscado = self.base_datos.busca_producto(nombre_producto)
-        self.tabla.delete(*self.tabla.get_children())
-        i = -1
-        for dato in nombre_buscado:
-            i= i+1                       
-            self.tabla.insert('',i, text = nombre_buscado[i][1:2], values=nombre_buscado[i][2:6])
-
-
-    def mostrar_todo(self):
-        self.tabla.delete(*self.tabla.get_children())
-        registro = self.base_datos.mostrar_productos()
-        i = -1
-        for dato in registro:
-            i= i+1                       
-            self.tabla.insert('',i, text = registro[i][1:2], values=registro[i][2:6])
-
-
-    def eliminar_fila(self):
-        fila = self.tabla.selection()
-        if len(fila) !=0:        
-            self.tabla.delete(fila)
-            nombre = ("'"+ str(self.nombre_borar) + "'")       
-            self.base_datos.elimina_productos(nombre)
-
-
-    def obtener_fila(self, event):
-        current_item = self.tabla.focus()
-        if not current_item:
-            return
-        data = self.tabla.item(current_item)
-        self.nombre_borar = data['values'][0]
-   
-
-def main():
-    ventana = Tk()
-    ventana.wm_title("Registro de Datos en MySQL")
-    ventana.config(bg='gray22')
-    ventana.geometry('900x500')
-    ventana.resizable(0,0)
-    app = Registro(ventana)
-    app.mainloop()
-
-if __name__=="__main__":
-    main()        
-
-
+# Start the main event loop
+root.mainloop()
