@@ -19,16 +19,9 @@ Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres
 - Twitter: [Tu Nombre de Usuario en Twitter](https://twitter.com/tu_nombre_de_usuario)
 - Instagram: [Alex_m04](https://www.instagram.com/tu_nombre_de_usuario)
 - WhatsApp: [+5076521-0907](https://wa.me/1234567890)
-  ## Lenguajes de programacion usados
-  <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="30"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30"/>
-</p>
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXOBvDo0bu2g10cKvmxQFCvHOtWLnXDZRHtOT4g96j72kTaSxU0KX4IPiOHBTXjqMsK42s1s46gjsdhQMV5BVrjzVVUiz441Arn3jsmmeRbQheeKeyDZHbgnMB_Wq9zc4PLM7BwCw8McX9qAwPZPdPpaDhVrq0PYWTBA5zodvrTW7v3vY4fUeYndkPDA/s1200/lenguaje-programacion-videojuegos-populares.webp" alt="dev">
 <hr>
-<h2 align="center">🔮『◇Enier Arauz◇』🪄</h2>
 <h3 align="center">A passionate frontend developer from Panamá 🇵🇦</h3>
 
 
@@ -112,13 +105,9 @@ Si deseas colaborar en un proyecto, tienes alguna pregunta o simplemente quieres
 <h4 align="center"> 🌐 Social ✨️</h4>
 <p align="center">
         <!-- Aquí se pueden agregar enlaces para conectarse, como redes sociales o correo electrónico -->
-  Enier Arauz 
-<a href="enier.arauz@unachi.ac.pa"> 
-</a>
-    </p>
+ 
 
-
-**ligmaster3/ligmaster3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AnderH04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <!--
 Here are some ideas to get you started:
 ## 🌐 Social ✨️
