@@ -1,0 +1,66 @@
+import cv2
+import webbrowser
+
+
+def leer_codigo_qr_desde_camara():
+    
+    detector = cv2.QRCodeDetector()
+
+   
+    cap = cv2.VideoCapture(0)  
+
+    if not cap.isOpened():
+        print("No se pudo acceder a la cámara")
+        return
+
+    while True:
+     
+        ret, frame = cap.read()
+
+        if not ret:
+            print("No se pudo leer el frame")
+            break
+
+        
+        datos, puntos, _ = detector.detectAndDecode(frame)
+
+       
+        if datos:
+            print(f'Código QR detectado: {datos}')
+
+           
+            if puntos is not None:
+                puntos = puntos[0]
+                for i in range(len(puntos)):
+                    pt1 = tuple(puntos[i].astype(int))
+                    pt2 = tuple(puntos[(i + 1) % len(puntos)].astype(int))
+                    cv2.line(frame, pt1, pt2, (0, 255, 0), 2)
+
+           
+            cv2.imshow('Lector QR', frame)
+
+            
+            if datos.startswith("http://") or datos.startswith("https://"):
+                print("Abriendo el enlace en el navegador...")
+                webbrowser.open(datos)  
+
+            
+            cv2.waitKey(2000) 
+
+            
+            break
+
+       
+        cv2.imshow('Lector QR', frame)
+
+        
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+    
+    cap.release()
+    cv2.destroyAllWindows()
+
+
+leer_codigo_qr_desde_camara()
+
