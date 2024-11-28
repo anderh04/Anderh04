@@ -1,8 +1,4 @@
-Aquí tienes un README optimizado y único para tu perfil de GitHub, enfocado en las tecnologías que manejas: PHP, HTML, MySQL y JavaScript.
-
----
-
-# 👋 ¡Hola, soy Abdiel Montezuma! 
+# 👋 ¡Hola, soy Abdiel Montezuma!
 
 <p align="center">
   <img src="https://www.imaginacolombia.com/assets/media/programming-equipment-image.jpg" alt="Programming" width="600"/>
@@ -15,25 +11,27 @@ Me encanta crear soluciones eficientes utilizando **PHP**, **HTML**, **MySQL** y
 ---
 
 ## 💻 Tecnologías y Herramientas
+
 ### 🛠️ Lenguajes:
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50" style="margin: 10px;"/>
 </p>
 
 ### 🔧 Herramientas:
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/git.svg" alt="Git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="GitHub" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="40" height="40"/>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/git.svg" alt="Git" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="GitHub" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="50" height="50" style="margin: 10px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50" style="margin: 10px;"/>
 </p>
 
 ---
 
 ## 🚀 Proyectos destacados
+
 ### 📌 [NAEI Market](https://github.com/tu-perfil/NAEI-Market)
 - **Descripción**: Sistema de comercio electrónico desarrollado en PHP, con soporte para gestión de productos, categorías y ventas.  
 - **Tecnologías utilizadas**: PHP, MySQL, HTML5, CSS3, JavaScript.
@@ -44,17 +42,19 @@ Me encanta crear soluciones eficientes utilizando **PHP**, **HTML**, **MySQL** y
 
 ---
 
-## 🌱 Actualmente aprendiendo:
-- Mejoras en diseño responsivo con CSS y frameworks como **Bootstrap**.
-- Desarrollo de API REST con PHP y MySQL.
-- Integración de JavaScript para mejorar la experiencia del usuario en aplicaciones web.
+## 🌱 Actualmente aprendiendo
+- Diseño responsivo avanzado con **Bootstrap** y CSS puro.
+- Desarrollo de API RESTful con PHP y MySQL.
+- Mejora de experiencia de usuario con técnicas avanzadas en **JavaScript**.
 
 ---
 
 ## 📫 ¡Conéctate conmigo!
-- **Correo electrónico**: [abdiel.montezuma2@unachi.ac.pa](mailto:abdiel.montezuma2@unachi.ac.pa)  
-- **LinkedIn**: [Abdiel Montezuma](#)  
-- **WhatsApp**: [+507 6521-0907](https://wa.me/50765210907)  
+<p align="center">
+  <a href="mailto:abdiel.montezuma2@unachi.ac.pa"><img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Gmail" style="margin: 10px;"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" style="margin: 10px;"/></a>
+  <a href="https://wa.me/50765210907"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" style="margin: 10px;"/></a>
+</p>
 
 ---
 
@@ -68,3 +68,5 @@ Me encanta crear soluciones eficientes utilizando **PHP**, **HTML**, **MySQL** y
 </p>
 
 ¡Gracias por visitar mi perfil! 🚀
+
+--- 
