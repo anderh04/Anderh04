@@ -27,6 +27,7 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="margin: 15px;"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mariadb/mariadb-original.svg" alt="MariaDB" width="50" height="50" style="margin: 15px;"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50" height="50" style="margin: 15px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cisco_logo.svg" alt="Cisco Packet Tracer" width="50" height="50" style="margin: 15px;"/>
 </p>
 
 ---
