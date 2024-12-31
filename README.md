@@ -15,18 +15,19 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
 
 ### 🛠️ Lenguajes:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50" style="margin: 15px;"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
 </p>
 
 ### 🔧 Herramientas:
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/git.svg" alt="Git" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="GitHub" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="50" height="50" style="margin: 15px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50" style="margin: 15px;"/>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/git.svg" alt="Git" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="GitHub" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Cisco_packet_tracer_icon.png" alt="Cisco Packet Tracer" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
 </p>
 
 ---
@@ -52,9 +53,9 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
 
 ## 📫 ¡Conéctate conmigo!
 <p align="center">
-  <a href="mailto:abdiel.montezuma2@unachi.ac.pa"><img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Gmail" style="margin: 15px;"/></a>
-  <a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" style="margin: 15px;"/></a>
-  <a href="https://wa.me/50765210907"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" style="margin: 15px;"/></a>
+  <a href="mailto:abdiel.montezuma2@unachi.ac.pa"><img src="https://img.icons8.com/fluency/48/ffffff/gmail.png" alt="Gmail" style="margin: 15px;"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluency/48/ffffff/linkedin.png" alt="LinkedIn" style="margin: 15px;"/></a>
+  <a href="https://wa.me/50765210907"><img src="https://img.icons8.com/color/48/ffffff/whatsapp.png" alt="WhatsApp" style="margin: 15px;"/></a>
 </p>
 
 ---
@@ -72,5 +73,3 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
 
 ¡Gracias por visitar mi perfil! 🚀✨  
 Espero que encuentres algo interesante aquí. 😊
-
----
