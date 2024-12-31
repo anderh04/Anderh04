@@ -27,9 +27,8 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="GitHub" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
   <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Cisco_logo_blue_2016.svg" alt="Cisco Packet Tracer" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Arista_Networks_logo.svg" alt="Cisco Packet Tracer" width="50" height="50" style="margin: 15px; filter: invert(70%);"/>
 </p>
-
 
 ---
 
@@ -54,9 +53,9 @@ Me dedico a crear soluciones eficientes con tecnologías como **PHP**, **HTML**,
 
 ## 📫 ¡Conéctate conmigo!
 <p align="center">
-  <a href="mailto:abdiel.montezuma2@unachi.ac.pa"><img src="https://img.icons8.com/fluency/48/ffffff/gmail.png" alt="Gmail" style="margin: 15px;"/></a>
-  <a href="#"><img src="https://img.icons8.com/fluency/48/ffffff/linkedin.png" alt="LinkedIn" style="margin: 15px;"/></a>
-  <a href="https://wa.me/50765210907"><img src="https://img.icons8.com/color/48/ffffff/whatsapp.png" alt="WhatsApp" style="margin: 15px;"/></a>
+  <a href="mailto:abdiel.montezuma2@unachi.ac.pa"><img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Gmail" style="margin: 15px;"/></a>
+  <a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" style="margin: 15px;"/></a>
+  <a href="https://wa.me/50765210907"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" style="margin: 15px;"/></a>
 </p>
 
 ---
