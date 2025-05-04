@@ -2,7 +2,7 @@
 📍 Chiriquí, Panamá | 📧 abdiel.montezuma2@unachi.ac.pa | 📱 +507 6521-0907  
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="450" alt="Programador cartoon"/>
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="500" alt="Desarrollador animado"/>
 </p>
 ## 🌟 Sobre Mí  
 ## 🧑‍💻 Perfil Profesional
