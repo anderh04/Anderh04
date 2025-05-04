@@ -1,8 +1,37 @@
-💻 Abdiel Montezuma - Desarrollador Full Stack
-📍 Chiriquí, Panamá | 📧 abdiel.montezuma2@unachi.ac.pa | 📱 +507 6521-0907
+💻 Abdiel Montezuma - Desarrollador Full Stack  
+📍 Chiriquí, Panamá | 📧 abdiel.montezuma2@unachi.ac.pa | 📱 +507 6521-0907  
 
-<p align="center"> <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding" width="600"/> </p>
-🌟 Sobre Mí
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFoY3V5dGx4b2R5d2Z2Z2J5ZzV0YzB6dGZ1Z2JqZzZ1ZzB6ZzImcD0z/giphy.gif" alt="Hombre programando" width="500"/>
+</p>
+
+## 🌟 Sobre Mí  
+
+```javascript
+const abdiel = {
+  nombre: "Abdiel Montezuma",
+  titulo: "Desarrollador Full Stack",
+  ubicacion: "Chiriquí, Panamá",
+  habilidades: ["JavaScript", "PHP", "React", "Laravel", "MySQL"],
+  caracteristicas: {
+    codeQuality: "✨ Código limpio y mantenible",
+    mindset: "🚀 Orientado a soluciones",
+    aprendizaje: "🌱 Autodidacta permanente"
+  }
+};
+🧩 Mi Filosofía
+"Transformo desafíos complejos en soluciones tecnológicas elegantes mediante código bien estructurado y mejores prácticas"
+
+🔥 Lo que me diferencia:
+🏆 +3 años desarrollando aplicaciones web completas
+
+💡 Pasión por arquitecturas escalables y limpias
+
+📚 Comparto conocimiento mediante tutoriales y mentoring
+
+🌍 Busco impactar positivamente mediante tecnología
+
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22D3EE&width=600&lines=console.log(%22Bienvenido+a+mi+perfil%22);" alt="Typing SVG"/> </p> ```
 ## 🧑‍💻 Perfil Profesional
 
 **Rol:** 🚀 Desarrollador Full Stack  
