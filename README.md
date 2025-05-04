@@ -1,3 +1,8 @@
+💻 Abdiel Montezuma - Desarrollador Full Stack
+📍 Chiriquí, Panamá | 📧 abdiel.montezuma2@unachi.ac.pa | 📱 +507 6521-0907
+
+<p align="center"> <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding" width="600"/> </p>
+🌟 Sobre Mí
 ## 🧑‍💻 Perfil Profesional
 
 **Rol:** 🚀 Desarrollador Full Stack  
