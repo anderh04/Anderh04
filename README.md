@@ -117,29 +117,8 @@ Desarrollador con formación técnica en Programación Empresarial y +3 años de
   <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="100" alt="Gracias">  
   ![Visitas](https://komarev.com/ghpvc/?username=anderh04&label=Profile%20views&color=0e75b6&style=flat)
 </div>
-Mejoras clave realizadas:
 
-Diseño más limpio: Menos badges y más contenido sustancial
 
-Jerarquía visual: Secciones mejor organizadas con separadores claros
-
-Enfoque profesional: Lenguaje más orientado a resultados y métricas
-
-Proyectos destacados: Descripción técnica más detallada con logros medibles
-
-Estadísticas relevantes: Gráficos con temas profesionales (algolia)
-
-Call-to-action claro: Botones de contacto bien diferenciados
-
-Animaciones sutiles: GIFs profesionales que no distraen
-
-Recomendación adicional:
-Si tienes métricas concretas de impacto (ej: "Optimización que redujo tiempos de carga en X%"), inclúyelas para mayor profesionalismo. También considera agregar testimonios de clientes/colegas si los tienes disponibles.
-
-dame otro
-Aquí tienes una versión ultra-profesional con diseño minimalista y enfoque en resultados:
-
-markdown
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=1000&color=5C6BC0&center=true&vCenter=true&width=460&lines=Abdiel+Montezuma;Desarrollador+Full+Stack;Arquitecto+de+Soluciones" alt="Título animado">
 </p>
@@ -155,44 +134,11 @@ markdown
 **Especialización:** Backend (Laravel/PHP) & Frontend (React/Next.js)  
 **Metodologías:** Agile Scrum • CI/CD • Clean Architecture  
 
-```text
-🏆 Logros Clave:
-• Implementé sistema de caching que redujo tiempos de respuesta en 65%
-• Lideré migración exitosa de monolithic a microservicios (3 sistemas en producción)
-• Optimicé queries SQL mejorando performance en un 40%
-🛠 Tecnologías Principales
-<table align="center"> <tr> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" width="40" alt="Laravel"/> <br><sub><b>Laravel</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" alt="React"/> <br><sub><b>React</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" alt="PHP"/> <br><sub><b>PHP</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="40" alt="Docker"/> <br><sub><b>Docker</b></sub> </td> </tr> <tr> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" alt="MySQL"/> <br><sub><b>MySQL</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" alt="AWS"/> <br><sub><b>AWS</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" width="40" alt="Next.js"/> <br><sub><b>Next.js</b></sub> </td> <td align="center" width="25%"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="40" alt="Kubernetes"/> <br><sub><b>K8s</b></sub> </td> </tr> </table>
-🚀 Proyectos Destacados
-1. NAEI Market Platform
-Role: Tech Lead & Full Stack Developer
-Stack: Laravel • React • Microservicios • Redis
-Logros:
-✓ Sistema procesando $250k+ en transacciones mensuales
-✓ Implementación de sistema de recomendación aumentando ventas en 18%
-✓ Arquitectura escalable soportando 10k+ usuarios concurrentes
-
-Ver Caso de Estudio
-
-2. SIGA UNACHI 2.0
-Role: Backend Architect
-Stack: PHP • WebSockets • MySQL • Elasticsearch
-Impacto:
-✓ Reducción de 8h a 15min en generación de reportes institucionales
-✓ Sistema adoptado por 15 facultades con 98% satisfacción
-✓ Primer sistema académico panameño con analytics en tiempo real
-
-Ver Demo
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="40" alt="Kubernetes"/> <br><sub><b>K8s</b></sub> </td> </tr> </table>
 
 📈 Métricas de Código
 <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=anderh04&theme=react-dark&hide_border=true&area=true&custom_title=Mi%20Actividad%20de%20Código" width="90%"> </div><div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=anderh04&margin-w=15&theme=onedark&no-frame=true&rank=SSS,SS,S,AAA,AA,A,B" width="90%"> </div>
 📚 Educación Continua
-text
-UNACHI
-└─ Téc. Programación Empresarial (2023)
 
-Cursos Recientes:
-├─ AWS Certified Solutions Architect (2024)
-├─ Kubernetes Avanzado (Platzi)
-└─ Patrones de Diseño Hexagonal (Udemy)
 📬 Contacto Profesional
 <p align="center"> <a href="mailto:abdiel.montezuma2@unachi.ac.pa"> <img src="https://img.icons8.com/fluency/48/000000/gmail.png" width="45" alt="Email"> </a> <a href="https://linkedin.com/in/abdiel-montezuma"> <img src="https://img.icons8.com/color/48/000000/linkedin.png" width="45" alt="LinkedIn"> </a> <a href="https://wa.me/50765210907"> <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" width="45" alt="WhatsApp"> </a> <a href="https://anderh04.github.io"> <img src="https://img.icons8.com/fluency/48/000000/domain.png" width="45" alt="Portafolio"> </a> </p><div align="center"> <img src="https://hit.yhype.me/github/profile?user_id=tu_id" alt="Visitas"> </div>
