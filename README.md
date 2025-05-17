@@ -72,9 +72,6 @@ Desarrollador con formación técnica en Programación Empresarial y +3 años de
 - Generación automática de 15+ tipos de reportes  
 - Integración con sistemas legacy de la universidad  
 
-[![Ver Caso de Estudio](https://img.shields.io/badge/📄_Caso_de_Estudio-4285F4?style=for-the-badge&logo=google-drive)](enlace-google-drive)
-
----
 
 ## 📊 **Métricas de Código**  
 <div align="center">
