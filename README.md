@@ -59,12 +59,8 @@ Desarrollador con formación técnica en Programación Empresarial y +3 años de
 **Logros:**  
 - Implementación de pasarela de pagos con 99.9% uptime  
 - Sistema de recomendación basado en ML (Python)  
-- Reducción de tiempo de carga en 40% mediante optimización  
-
-[![Ver Repositorio](https://img.shields.io/badge/🔍_Código_Fuente-181717?style=for-the-badge&logo=github)](https://github.com/anderh04/NAEI-Market)
-
----
-
+- Reducción de tiempo de carga en 40% mediante optimización
+  
 ### **SIGA UNACHI - Sistema Académico Inteligente**  
 <div align="center">
   <img src="https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif" width="450" alt="Dashboard académico">
