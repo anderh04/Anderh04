@@ -88,8 +88,6 @@ Desarrollador con formación técnica en Programación Empresarial y +3 años de
 - **Curso Avanzado de Kubernetes** (Platzi, 2024)  
 - **Especialización en Arquitectura Hexagonal** (Udemy, 2023)  
 
----
-
 ## 📬 **Contacto Profesional**  
 <p align="center">
   <a href="mailto:abdiel.montezuma2@unachi.ac.pa">
@@ -108,7 +106,6 @@ Desarrollador con formación técnica en Programación Empresarial y +3 años de
 
 <div align="center">
   <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="100" alt="Gracias">  
-  ![Visitas](https://komarev.com/ghpvc/?username=anderh04&label=Profile%20views&color=0e75b6&style=flat)
 </div>
 
 
