@@ -1,141 +1,119 @@
-💻 Abdiel Montezuma - Desarrollador Full Stack  
+💻 **Abdiel Montezuma**  
+🚀 **Desarrollador Full Stack | Especialista en Soluciones Empresariales**  
 📍 Chiriquí, Panamá | 📧 abdiel.montezuma2@unachi.ac.pa | 📱 +507 6521-0907  
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="450" alt="Programador cartoon"/>
+  <img src="https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif" width="300" alt="Programador animado"/>
 </p>
-## 🌟 Sobre Mí  
-## 🧑‍💻 Perfil Profesional
 
-**Rol:** 🚀 Desarrollador Full Stack  
-**Pasiones:**  
-- ✨ Código limpio  
-- 💡 Soluciones innovadoras  
-- 🌱 Aprendizaje continuo  
+---
 
-**Educación:**  
-🎓 Técnico en Programación Empresarial - UNACHI  
+## 🔍 **Perfil Profesional**  
+Desarrollador con formación técnica en Programación Empresarial y +3 años de experiencia construyendo soluciones escalables. Especializado en arquitecturas backend robustas (PHP/Laravel) e interfaces reactivas (React.js).  
 
-**Filosofía:**  
-> "Transformar problemas en soluciones tecnológicas elegantes"  
+**Valores clave:**  
+✔️ Código limpio y mantenible  
+✔️ Enfoque en performance y UX  
+✔️ Metodologías ágiles (Scrum/Kanban)  
 
-**Intereses:**  
-- 📦 Open Source  
-- 🔮 Tecnologías emergentes  
-- 👨‍🏫 Enseñar programación
+---
 
-## 🚀 Mi Stack Tecnológico
+## 🛠 **Stack Tecnológico**  
 
-### 🔥 Lenguajes Principales
+### **Lenguajes y Frameworks**  
 <p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&logoWidth=30" alt="PHP">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
-### 🌐 Frontend
+### **Infraestructura y DevOps**  
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
 </p>
 
-### 🛠 Backend & Bases de Datos
+### **Herramientas de Desarrollo**  
 <p align="center">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman">
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
 </p>
 
-### ⚡ Herramientas
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-</p>
+---
 
-## 🏆 Proyectos Destacados
+## 🏆 **Proyectos Destacados**  
 
-### 🛍️ NAEI Market - E-commerce Completo
+### **NAEI Market - Plataforma E-commerce**  
 <div align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" alt="E-commerce demo">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="450" alt="Demo e-commerce">
 </div>
 
-```markdown
-🛠 **Stack:** PHP | Laravel | MySQL | JavaScript | Bootstrap  
-🌟 **Features:**
-- ✅ Sistema completo de comercio electrónico
-- 🛒 Carrito inteligente con persistencia
-- 🔐 Autenticación JWT + Roles
-- 📊 Dashboard administrativo con analytics
-- 💳 Integración con PayPal/Stripe
-```
+**Tecnologías:** Laravel | React | MySQL | Microservicios  
+**Logros:**  
+- Implementación de pasarela de pagos con 99.9% uptime  
+- Sistema de recomendación basado en ML (Python)  
+- Reducción de tiempo de carga en 40% mediante optimización  
 
-[![Ver Código](https://img.shields.io/badge/🔎_Ver_Repositorio-181717?style=for-the-badge&logo=github)](https://github.com/anderh04/NAEI-Market)
+[![Ver Repositorio](https://img.shields.io/badge/🔍_Código_Fuente-181717?style=for-the-badge&logo=github)](https://github.com/anderh04/NAEI-Market)
 
-### 🎓 Sistema Académico Inteligente
+---
+
+### **SIGA UNACHI - Sistema Académico Inteligente**  
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif" width="400" alt="Sistema académico">
+  <img src="https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif" width="450" alt="Dashboard académico">
 </div>
 
-```markdown
-🛠 **Stack:** PHP | MySQL | JavaScript | Chart.js  
-🌟 **Features:**
-- 📅 Gestión completa de calendario académico
-- 📝 Generación automática de reportes en PDF
-- 📊 Dashboard interactivo con gráficos
-- 🔔 Sistema de notificaciones en tiempo real
-```
+**Tecnologías:** PHP | JavaScript | Chart.js | WebSockets  
+**Impacto:**  
+- Digitalización de procesos para 5,000+ usuarios  
+- Generación automática de 15+ tipos de reportes  
+- Integración con sistemas legacy de la universidad  
 
-[![Ver Código](https://img.shields.io/badge/🔎_Ver_Repositorio-181717?style=for-the-badge&logo=github)](https://github.com/anderh04/sistema-academico)
+[![Ver Caso de Estudio](https://img.shields.io/badge/📄_Caso_de_Estudio-4285F4?style=for-the-badge&logo=google-drive)](enlace-google-drive)
 
-## 📈 Mis Estadísticas
+---
 
+## 📊 **Métricas de Código**  
 <div align="center">
   
-  ![Estadísticas GitHub](https://github-readme-stats.vercel.app/api?username=anderh04&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
+  ![Estadísticas GitHub](https://github-readme-stats.vercel.app/api?username=anderh04&show_icons=true&theme=algolia&hide_border=true&count_private=true&include_all_commits=true)
   
-  ![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=anderh04&layout=compact&theme=radical&hide=html,css)
-  
-  ![Racha GitHub](https://github-readme-streak-stats.herokuapp.com/?user=anderh04&theme=radical&fire=DD2727)
+  ![Lenguajes Top](https://github-readme-stats.vercel.app/api/top-langs/?username=anderh04&layout=compact&theme=algolia&hide_border=true&exclude_repo=old-projects)
 </div>
 
-## 🌱 Actualmente Aprendiendo
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
-  <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes">
-</p>
+## 📚 **Formación Continua**  
+- **Certificación AWS Cloud Practitioner** (En progreso)  
+- **Curso Avanzado de Kubernetes** (Platzi, 2024)  
+- **Especialización en Arquitectura Hexagonal** (Udemy, 2023)  
 
-## 📬 Contáctame
+---
 
+## 📬 **Contacto Profesional**  
 <p align="center">
   <a href="mailto:abdiel.montezuma2@unachi.ac.pa">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    <img src="https://img.shields.io/badge/Correo-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://linkedin.com/in/abdiel-montezuma">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://wa.me/50765210907">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
-  <a href="https://github.com/anderh04">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <a href="https://anderh04.github.io/portafolio">
+    <img src="https://img.shields.io/badge/🌐_Portafolio-FF4785?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio">
   </a>
 </p>
 
 <div align="center">
-  
+  <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="100" alt="Gracias">  
   ![Visitas](https://komarev.com/ghpvc/?username=anderh04&label=Profile%20views&color=0e75b6&style=flat)
-  
-  [![Todos los proyectos](https://img.shields.io/badge/🚀_Ver_todos_mis_proyectos-181717?style=for-the-badge&logo=github)](https://github.com/anderh04?tab=repositories)
 </div>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="150" alt="Gracias">
-</p>
